@@ -3,7 +3,7 @@ on:
   push:
     branches: [main]
     paths:
-      - content/**
+      - wiki/**
       - .github/workflows/publish-wiki.yml
 
 concurrency:
