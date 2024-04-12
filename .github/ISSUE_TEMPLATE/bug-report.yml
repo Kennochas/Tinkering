@@ -1,0 +1,55 @@
+name: Community Bug Report
+description: Report a bug impacting Helldivers 2
+title: "Bug Report Title"
+labels: ['type: bug', triage]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+        Please keep in mind this is COMMUNITY based, and not meant to replace official support
+
+  - type: textarea
+    id: issue-summary
+    attributes:
+      label: Issue Summary
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "please detail your issue"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Which component(s) of AVD impacted
+      multiple: true
+      options:
+        - Gameplay
+        - Weapons
+        - Environmental
+
+  - type: dropdown
+    id: runner
+    attributes:
+      label: What platform do you play on?
+      multiple: false
+      options:
+        - Windows
+        - Playstation 5
+
+  - type: textarea
+    id: step-to-reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Please copy and paste any relevant inputs to reproduce your issue.
+      render: shell
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Contributing Guide
+      description: By submitting this issue, you agree to follow our [Contributing Guide](https://woops.https://www.playstation.com/en-us/games/helldivers-2/)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
