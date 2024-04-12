@@ -6,7 +6,6 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
         Please keep in mind this is COMMUNITY based, and not meant to replace official support
 
   - type: textarea
