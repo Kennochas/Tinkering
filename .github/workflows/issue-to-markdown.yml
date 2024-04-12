@@ -18,7 +18,7 @@ jobs:
           extension: '.md'
           slug_as_folder_name: true
           slug_key: 'slug'
-          label: 'publish'
+          label: 'Publish'
           inject_title: true
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
