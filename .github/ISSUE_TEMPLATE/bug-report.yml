@@ -22,7 +22,7 @@ body:
   - type: dropdown
     id: component
     attributes:
-      label: Which component(s) of AVD impacted
+      label: Which aspect of the game is it related to?
       multiple: true
       options:
         - Gameplay
@@ -49,7 +49,7 @@ body:
     id: terms
     attributes:
       label: Contributing Guide
-      description: By submitting this issue, you agree to follow our [Contributing Guide](https://woops.https://www.playstation.com/en-us/games/helldivers-2/)
+      description: By submitting this issue, you agree to follow our [Contributing Guide](https://www.playstation.com/en-us/games/helldivers-2/)
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
